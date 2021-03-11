@@ -62,15 +62,15 @@ return [
     /**
      * 验证码宽度
      */
-    'imagewidth' => 150,
+    'imagewidth' => 120,
     /**
      * 验证码高度
      */
-    'imageheight' => 50,
+    'imageheight' => 38,
     /**
      * 字体大小
      */
-    'fontsize' => 25,
+    'fontsize' => 20,
     /**
      * 验证码数量
      */
@@ -84,10 +84,14 @@ return [
      */
     'interferencelines' => 4,
     /**
+     * 验证码是否只使用一次，true，false
+     */
+    'useonce' => true,
+    /**
      * 自定义配置文件
      */
     'customize' => ['customize'],
-	/**
+    /**
      * 路由配置
      */
     'mainroute' => 'archives',
